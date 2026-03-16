@@ -1,0 +1,6 @@
+seed,run_name,run_dir,eval_mean_return,eval_std_return,eval_min_return,eval_max_return
+0,qrdqn_rowdeepsets_seed0,outputs/qrdqn_row_deepsets_runs/qrdqn_rowdeepsets_seed0,-7.333000183105469,6.670840263366699,-35.0,0.0
+1,qrdqn_rowdeepsets_seed1,outputs/qrdqn_row_deepsets_runs/qrdqn_rowdeepsets_seed1,-7.690999984741211,6.260472774505615,-36.0,0.0
+2,qrdqn_rowdeepsets_seed2,outputs/qrdqn_row_deepsets_runs/qrdqn_rowdeepsets_seed2,-7.521999835968018,6.501193523406982,-34.0,0.0
+3,qrdqn_rowdeepsets_seed3,outputs/qrdqn_row_deepsets_runs/qrdqn_rowdeepsets_seed3,-7.386000156402588,6.362782955169678,-34.0,0.0
+4,qrdqn_rowdeepsets_seed4,outputs/qrdqn_row_deepsets_runs/qrdqn_rowdeepsets_seed4,-7.056000232696533,6.117095947265625,-31.0,0.0

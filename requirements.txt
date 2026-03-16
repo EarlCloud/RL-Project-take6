@@ -1,0 +1,6 @@
+gymnasium==1.2.3
+numpy==2.4.3
+pytest==9.0.2
+sb3_contrib==2.7.1
+stable_baselines3==2.7.1
+torch==2.9.1

@@ -1,0 +1,41 @@
+{
+  "run_name": "qrdqn_rowdeepsets_fixedopp_seed1",
+  "save_dir": "outputs/qrdqn_row_deepsets_fixed_opp_runs",
+  "seed": 1,
+  "device": "cuda",
+  "opponent_device": "cuda",
+  "total_steps": 100000,
+  "buffer_size": 50000,
+  "batch_size": 128,
+  "learning_starts": 2000,
+  "train_freq": 1,
+  "gradient_steps": 1,
+  "target_update_interval": 1000,
+  "gamma": 0.99,
+  "lr": 0.0001,
+  "hidden_dims": [
+    512,
+    256
+  ],
+  "eps_start": 1.0,
+  "eps_end": 0.05,
+  "exploration_fraction": 0.3,
+  "num_quantiles": 101,
+  "kappa": 1.0,
+  "row_embed_dim": 64,
+  "row_phi_hidden_dims": [
+    64,
+    64
+  ],
+  "eval_every_steps": 10000,
+  "eval_episodes": 200,
+  "eval_seed": 20000,
+  "log_every_episodes": 20,
+  "opponent_name": "ppo1_ppo2_heur1",
+  "ppo1_run_dir": "checkpoints/frozen_opponents/ppo_seed1",
+  "ppo2_run_dir": "checkpoints/frozen_opponents/ppo_seed2",
+  "heuristic_run_dir": "checkpoints/frozen_opponents/heuristic_seed1",
+  "ppo_checkpoint": "best_model",
+  "heuristic_checkpoint": "best_finetuned_model",
+  "train_env": "SixQuiPrendEnvFixedOpponents"
+}

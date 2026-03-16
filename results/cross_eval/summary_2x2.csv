@@ -1,0 +1,5 @@
+train_env,test_env,mean_return
+old_env,old_env,-7.3976
+old_env,new_fixedopp_env,-8.5408
+new_fixedopp_env,old_env,-7.8450
+new_fixedopp_env,new_fixedopp_env,-6.8140

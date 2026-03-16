@@ -1,0 +1,37 @@
+{
+     "mode": "old_on_new", 
+     "num_runs": 5, 
+     "mean_of_mean_returns": -8.540800094604492, 
+     "std_across_seeds": 0.4238582094852934, 
+     "best_return": -7.998000144958496, 
+     "worst_return": -9.055000305175781, 
+     "best_seed": 3, 
+     "worst_seed": 1, 
+     "per_seed": [ 
+        { 
+            "seed": 0, 
+            "run_dir": "checkpoints/outputs/qrdqn_rowdeepsets_seed0", 
+            "mean_return": -8.833000183105469 
+        }, 
+        { 
+            "seed": 1, 
+            "run_dir": "checkpoints/outputs/qrdqn_rowdeepsets_seed1", 
+            "mean_return": -9.055000305175781 
+        }, 
+        { 
+            "seed": 2, 
+            "run_dir": "checkpoints/outputs/qrdqn_rowdeepsets_seed2", 
+            "mean_return": -8.739999771118164 
+        }, 
+        { 
+            "seed": 3, 
+            "run_dir": "checkpoints/outputs/qrdqn_rowdeepsets_seed3", 
+            "mean_return": -7.998000144958496 
+        }, 
+        {  
+            "seed": 4, 
+            "run_dir": "checkpoints/outputs/qrdqn_rowdeepsets_seed4", 
+            "mean_return": -8.07800006866455 
+        } 
+    ] 
+}

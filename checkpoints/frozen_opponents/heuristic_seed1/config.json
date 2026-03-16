@@ -1,0 +1,29 @@
+{
+  "run_name": "heuristic_rl_cont_sort_diff_100000_seed1",
+  "save_dir": "outputs/heuristic_rl_runs",
+  "seed": 1,
+  "device": "cuda",
+  "continuous_obs": true,
+  "sort_rows": true,
+  "add_diff": true,
+  "dataset_episodes": 5000,
+  "dataset_seed_start": 1000,
+  "bc_epochs": 20,
+  "bc_batch_size": 256,
+  "bc_lr": 0.001,
+  "ppo_timesteps": 100000,
+  "ppo_lr": 0.0003,
+  "n_steps": 256,
+  "batch_size": 256,
+  "gamma": 0.99,
+  "gae_lambda": 0.95,
+  "ent_coef": 0.01,
+  "clip_range": 0.2,
+  "hidden_dims": [
+    256,
+    256
+  ],
+  "eval_every_steps": 10000,
+  "eval_episodes": 200,
+  "eval_seed_start": 20000
+}

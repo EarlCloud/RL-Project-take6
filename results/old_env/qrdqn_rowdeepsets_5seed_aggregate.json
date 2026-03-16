@@ -1,0 +1,8 @@
+{
+  "num_runs": 5,
+  "eval_mean_return_mean": -7.397600078582764,
+  "eval_mean_return_std_across_seeds": 0.2109772328812072,
+  "eval_std_return_mean": 6.38247709274292,
+  "best_eval_mean_return": -7.056000232696533,
+  "worst_eval_mean_return": -7.690999984741211
+}

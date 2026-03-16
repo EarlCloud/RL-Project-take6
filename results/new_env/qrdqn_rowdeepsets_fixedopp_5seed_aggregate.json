@@ -1,0 +1,66 @@
+{
+  "aggregate": {
+    "run_prefix": "qrdqn_rowdeepsets_fixedopp",
+    "num_runs": 5,
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "mean_of_mean_returns": -6.814000034332276,
+    "std_across_seeds": 0.15702357794731062,
+    "best_seed_return": -6.670000076293945,
+    "worst_seed_return": -7.104000091552734,
+    "best_seed": 2,
+    "worst_seed": 1
+  },
+  "per_seed": [
+    {
+      "seed": 0,
+      "run_name": "qrdqn_rowdeepsets_fixedopp_seed0",
+      "mean_return": -6.703000068664551,
+      "std_return": 6.690798759460449,
+      "min_return": -36.0,
+      "max_return": 0.0,
+      "mean_penalty": 6.703000068664551
+    },
+    {
+      "seed": 1,
+      "run_name": "qrdqn_rowdeepsets_fixedopp_seed1",
+      "mean_return": -7.104000091552734,
+      "std_return": 6.4646100997924805,
+      "min_return": -39.0,
+      "max_return": 0.0,
+      "mean_penalty": 7.104000091552734
+    },
+    {
+      "seed": 2,
+      "run_name": "qrdqn_rowdeepsets_fixedopp_seed2",
+      "mean_return": -6.670000076293945,
+      "std_return": 6.303895473480225,
+      "min_return": -38.0,
+      "max_return": 0.0,
+      "mean_penalty": 6.670000076293945
+    },
+    {
+      "seed": 3,
+      "run_name": "qrdqn_rowdeepsets_fixedopp_seed3",
+      "mean_return": -6.848999977111816,
+      "std_return": 6.325677871704102,
+      "min_return": -32.0,
+      "max_return": 0.0,
+      "mean_penalty": 6.848999977111816
+    },
+    {
+      "seed": 4,
+      "run_name": "qrdqn_rowdeepsets_fixedopp_seed4",
+      "mean_return": -6.74399995803833,
+      "std_return": 6.3998799324035645,
+      "min_return": -38.0,
+      "max_return": 0.0,
+      "mean_penalty": 6.74399995803833
+    }
+  ]
+}

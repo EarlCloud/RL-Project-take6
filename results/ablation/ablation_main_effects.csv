@@ -1,0 +1,4 @@
+method,factor,mean_return_when_on,mean_return_when_off,delta_on_minus_off,num_configs_on,num_configs_off
+qrdqn,continuous_obs,-8.186549997329712,-9.867649936676026,1.6810999393463142,4,4
+qrdqn,sort_rows,-8.582399940490722,-9.471799993515015,0.8894000530242927,4,4
+qrdqn,add_diff,-9.09479992389679,-8.959400010108947,-0.13539991378784322,4,4

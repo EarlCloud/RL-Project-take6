@@ -1,0 +1,19 @@
+{
+  "run_name": "ppo_sorted_addobservation_100000_seed1",
+  "save_dir": "outputs/ppo_runs",
+  "seed": 1,
+  "wrapper": "sorted_addobservation",
+  "total_timesteps": 100000,
+  "learning_rate": 0.0003,
+  "n_steps": 256,
+  "batch_size": 64,
+  "gamma": 0.99,
+  "gae_lambda": 0.95,
+  "ent_coef": 0.0,
+  "clip_range": 0.2,
+  "verbose": 0,
+  "progress_bar": false,
+  "eval_every_steps": 10000,
+  "eval_episodes": 200,
+  "eval_seed_start": 20000
+}
